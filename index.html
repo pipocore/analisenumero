@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Analisando números</title>
+</head>
+<body>
+<h1>Analisando números</h1>
+<div id="show">
+ <label for="number">Número:</label><input type="number" name="number" id="number">
+ <input type="button" value="Adicionar" id="button" onclick="adicionar()">
+    <div id="seleciona">
+     <select name="adc" id="adc" size="10">
+        <option id="opcao"></option>
+     </select>  
+     <input type="button" value="Finalizar" id="b" onclick="analisar()">
+    </div>
+    <div id="resultado"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
